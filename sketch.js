@@ -41,6 +41,7 @@ function setup() {
 }
 
 function draw() {
+  background("white");
   drawSprites();
   textSize(20);
   text("Instuctions:", 15, 25);
