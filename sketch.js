@@ -1,6 +1,6 @@
-var astronauts
+var astronaut
 var bg, sleep, brush, gym, eat, drink, move
-var background
+var background1
 var wall1, wall2, wall3, wall4
 
 function preload() {
@@ -15,9 +15,9 @@ function preload() {
 
 function setup() {
   createCanvas(800,600);
-  background = createSprite(350,200);
-  background.addImage("bg", bg);
-  background.scale = 0.15;
+  background1 = createSprite(350,200);
+  background1.addImage("bg", bg);
+  background1.scale = 0.15;
 
   border1 = createSprite(50, 50, 400, 200);
   border1.shapeColor = "black";
